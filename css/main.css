@@ -1,0 +1,80 @@
+/************
+---General---
+************/
+
+body {
+  background: -webkit-linear-gradient(rgba(62,62,62,.5), rgba(62,62,62,.5)), url(../images/wbg_arashiyama.jpg) center center fixed no-repeat;
+  background: linear-gradient(rgba(62,62,62,.5), rgba(62,62,62,.5)), url(../images/wbg_arashiyama.jpg) center center fixed no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "chaparral", sans-serif;
+  font-size: 18px;
+}
+
+.bg2 {
+  background: -webkit-linear-gradient(rgba(62,62,62,.5), rgba(62,62,62,.5)), url(../images/wbg_train.jpg) center center fixed no-repeat;
+  background: linear-gradient(rgba(62,62,62,.5), rgba(62,62,62,.5)), url(../images/wbg_train.jpg) center center fixed no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+a, p {
+	color: #d4de25;
+	text-decoration: none;
+}
+
+/*p {
+	margin: 5px 0;
+	padding: 0;
+}*/
+
+
+/*********
+---Logo---
+*********/
+
+.logo {
+	background: url(../images/andybangs_logo_sprite.png) 0 -64px;
+	display: block;
+	margin: 70px auto 10px;
+	text-indent: -9999px;
+	height: 64px;
+	width: 208px;
+	-webkit-transition: .175s .05s ease-in-out;
+	transition: .175s .05s ease-in-out;
+}
+
+.logo:hover, .logo:focus {
+	background-position: 0 0;
+}
+
+
+/***************
+---Navigation---
+***************/
+
+nav ul {
+	padding-left: 0;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	font-size: 1em;
+	padding: 0 10px 0 10px;
+	margin: 0;
+	border: 0;
+	position: relative;
+}
+
+nav li a:hover {
+	color: #3e3e3e;
+}
+
+nav a {
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
