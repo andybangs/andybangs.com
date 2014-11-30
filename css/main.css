@@ -47,7 +47,7 @@ a, p {
 	transition: .175s .05s ease-in-out;
 }
 
-.logo:hover, .logo:focus {
+.logo:hover {
 	background-position: 0 0;
 }
 
