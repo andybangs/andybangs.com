@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="images/andybangs_favicon2.png" type="image/x-icon">
 	<link rel="icon" href="images/andybangs_favicon2.png" type="image/x-icon">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 	<div id="wrapper">
@@ -28,12 +27,12 @@
 	</div>
 
 	<script>
-		// Change background
-		$(document).ready(function () {
-			$('.logo').on('click', function (ev) {
-				ev.preventDefault();
-				$('body').toggleClass('bg2');
-			});
+		document.addEventListener('DOMContentLoaded', function () {
+			// Change background
+			document.querySelector('.logo').addEventListener('click', function (e) {
+				e.preventDefault();
+				document.body.classList.toggle('bg2');
+			})
 		});
 	</script>
 </body>
