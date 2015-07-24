@@ -32,7 +32,8 @@ a, p {
 *********/
 
 .logo {
-	background: url(../images/andybangs_logo_sprite.png) 0 -64px;
+	background: url(../images/andybangs_logo_sprite.svg) center -64px;
+  background-size: 416px 128px;
 	display: block;
 	margin: 70px auto 10px;
 	text-indent: -9999px;
@@ -43,7 +44,7 @@ a, p {
 }
 
 .logo:hover {
-	background-position: 0 0;
+	background-position: center 0;
 }
 
 
